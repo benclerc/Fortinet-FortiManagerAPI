@@ -127,6 +127,8 @@ try {
 
 This library also supports workspace locking. It allows to lock the workspace, make changes and then commit thoses changes or unlock without committing (rollback).
 
+_You have to enable workspace on the FortiManager first._
+
 ```php
 // Lock workspace ('root' VDOM)
 $policyManager->execAdomWorkspaceLock('root');
